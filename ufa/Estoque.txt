@@ -1,0 +1,20 @@
+-----------------------------
+Produto: Tecido egipicio
+Preço R$: 2000
+Quantidade em estoque: 30
+------------ESTOQUE-------------
+Produto: Cadeira de massagen
+Preço R$: 10000
+Quantidade em estoque: 100
+------------ESTOQUE-------------
+Produto: Vasos
+Preço R$: 20
+Quantidade em estoque: 3
+------------ESTOQUE-------------
+Produto: Edredon
+Preço R$: 300
+Quantidade em estoque: 50
+------------EM ESTOQUE-------------
+Produto: Cadeira
+Preço R$: 20
+Quantidade em estoque: 1000

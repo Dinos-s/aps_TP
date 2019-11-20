@@ -1,0 +1,21 @@
+-----------------
+Aluno: fred
+1°Nota: 10
+2°Nota: 2
+Média sem exame final: 0
+Nota do exame final: 0
+Média com exame final: 0
+-----------------
+Aluno: Salsicha
+1°Nota: 9
+2°Nota: 4
+Média sem exame final: 6
+Nota do exame final: 5
+Média com exame final: 8
+-----------------
+Aluno: 123
+1°Nota: 3
+2°Nota: 4
+Média sem exame final: 3
+Nota do exame final: 0
+Média com exame final: 0
