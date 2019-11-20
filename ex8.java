@@ -1,18 +1,15 @@
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.util.Random;
-
 /**
  * ex8
  */
 public class ex8 {
 
     public static void main(final String[] args) {
-        Random t = new Random();
         PrintWriter ax = null;
-        String nome, cargo; 
+        String nome, cargo, g; 
         double sl = 0; 
-        int codgf, da =0, sb, r, nd, op = 0;
+        int codgf, sb, r, nd, op = 0;
 
         try {
             final FileWriter out = new FileWriter("Trabalho.txt", true);
@@ -30,9 +27,15 @@ public class ex8 {
                 String d = System.console().readLine();
                 codgf = Integer.parseInt(d);
 
-               // System.out.println("Data de admição do fucionario: "+21/02/2000);
-                // String l = System.console().readLine();
-                 da = 21/02/2000;
+
+                System.out.println("Data de admição do fucionario: ");
+                 g = System.console().readLine();
+
+                 String[] l = g.split("/");
+                 
+                 LocalDate da = LocalDate.of(Integer.parseInt(l[2]), Integer.parseInt(l[1]), Integer.parseInt(l[0]))
+
+               
 
                 System.out.print("Sálario bruto do fucionário: ");
                  String k = System.console().readLine();
